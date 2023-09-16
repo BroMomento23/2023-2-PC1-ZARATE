@@ -1,0 +1,72 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.header .menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header .menu ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.imagenes-en-fila {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.imagenes-en-fila img {
+    flex-basis: calc(20% - 10px); 
+    margin-right: 10px; 
+    max-height: 100px; 
+}
+
+
+.arrow {
+    border: solid rgb(0, 0, 0);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-right: 100px;
+    }
